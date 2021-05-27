@@ -15,9 +15,9 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
-      {/* <MaterialLink component={Link} to="/" color="inherit">
+      <MaterialLink component={Link} to="/" color="inherit">
         Your Website
-      </MaterialLink>{' '} */}
+      </MaterialLink>{" "}
       {new Date().getFullYear()}
       {"."}
     </Typography>
@@ -94,18 +94,18 @@ export default function Album() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  {/* <Link to="/pricing">
+                  <Link to="/pricing">
                     <Button variant="contained" color="primary">
                       Pricing
                     </Button>
-                  </Link> */}
+                  </Link>
                 </Grid>
                 <Grid item>
-                  {/* <Link to="/pricing">
+                  <Link to="/pricing">
                     <Button variant="outlined" color="primary">
                       Pricing
                     </Button>
-                  </Link> */}
+                  </Link>
                 </Grid>
               </Grid>
             </div>
